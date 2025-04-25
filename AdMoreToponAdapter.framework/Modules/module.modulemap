@@ -1,0 +1,6 @@
+framework module AdMoreToponAdapter {
+  umbrella header "AdMoreToponAdapter.h"
+  export *
+
+  module * { export * }
+}
