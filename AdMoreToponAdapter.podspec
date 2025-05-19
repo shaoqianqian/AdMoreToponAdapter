@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AdMoreToponAdapter'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'AdMore adapter for Taku mediation.'
   s.description      = 'A lightweight .framework adapter to integrate AdMore with Taku mediation.'
   s.homepage         = 'https://github.com/shaoqianqian/AdMoreToponAdapter.git'
@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.swift_version    = '5.0'
 
   # 如果有依赖其他 pods
-  # s.dependency 'AdMoreSDK'
-  # s.dependency 'TakuSDK'
+  s.dependency  'KSAdSDK', '3.3.74'
+  s.dependency  'UBiXMerakSDK','2.5.1'
+  s.dependency  'BaiduMobAdSDK','5.38'
 end
